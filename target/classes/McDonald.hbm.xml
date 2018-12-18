@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.hibernatetesting.www.HIBERNATEDEMO.McDonald"
+		table="MCMENU">
+
+		<meta attribute="class-description">
+			This class contains the employee detail.
+		</meta>
+
+		<id name="mcId" type="int" column="id">
+			<generator class="native" />
+		</id>
+
+		<property name="mcItem" column="MCITEM" type="string" />
+		<property name="mcPrice" column="MCTYPE" type="int" />
+		<property name="mcType" column="MCPRICE" type="string" />
+
+	</class>
+</hibernate-mapping>
