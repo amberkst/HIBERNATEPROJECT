@@ -15,6 +15,10 @@ public class McDonald {
 		
 	}
 
+	public McDonald() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getMcId() {
 		
 		return mcId;

@@ -7,7 +7,7 @@
 
 	<session-factory>
 		<property name="show.sql">true</property>
-		<property name="hbm2ddl.auto">update</property>
+		<property name="hbm2ddl.auto">create</property>
 		<property name="dialect">org.hibernate.dialect.SQLServerDialect</property>
 		<property name="connection.url">
 			jdbc:sqlserver://localhost:1433;databaseName=ALLIENS</property>
